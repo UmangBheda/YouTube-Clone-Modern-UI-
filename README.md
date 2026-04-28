@@ -1,20 +1,113 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎬 YouTube Clone (Modern UI)
 
-# Run and deploy your AI Studio app
+A modern YouTube clone built using React, TypeScript, and Tailwind CSS. This project replicates core YouTube features like video browsing, search, and video playback with a clean and responsive UI.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/f9dd8f93-1522-4909-aab6-53c0debe06d0
+## 🚀 Features
 
-## Run Locally
+* 🔍 Search videos
+* 📺 Watch video details
+* 🏠 Home feed (trending/popular videos)
+* ⚡ Fast performance using Vite
+* 🎨 Responsive UI with Tailwind CSS
+* 🔄 State management using Redux Toolkit
+* 🌐 API integration with Axios
+* 📦 Modular and scalable folder structure
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* React.js
+* TypeScript
+* Tailwind CSS
+* Redux Toolkit
+* React Router
+* Axios
+* Vite
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/       # UI components (Navbar, Sidebar, VideoCard)
+ ├── pages/            # Home, Search, VideoDetails pages
+ ├── hooks/            # Custom hooks
+ ├── services/         # API calls and axios setup
+ ├── store/            # Redux store and slices
+ ├── types.ts          # TypeScript types
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/your-username/youtube-clone.git
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Setup environment variables:
+
+```
+VITE_RAPID_API_KEY=your_api_key_here
+```
+
+4. Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file and add:
+
+```
+VITE_RAPID_API_KEY=your_api_key
+```
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
+---
+
+## 📌 Future Improvements
+
+* 🔐 Authentication (Login/Signup)
+* 👍 Like, Comment features
+* 📱 Mobile optimization improvements
+* 📡 Live streaming support
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
