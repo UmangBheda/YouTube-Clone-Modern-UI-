@@ -1,0 +1,6 @@
+{
+  "name": "YouTube Clone - Modern",
+  "description": "A high-performance YouTube clone with modern UI, video playback, and category-based browsing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["video_playback", "state_management", "routing"]
+}
